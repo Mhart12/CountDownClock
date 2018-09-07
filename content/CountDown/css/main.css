@@ -1,0 +1,30 @@
+html, body 
+{
+	margin: 0;
+	padding: 0;
+	position:relative;
+	background:#010237;
+}
+
+#countDownContainer
+{
+	background:url(../images/background.jpg);
+	width:376px;
+	height:668px;
+	margin:auto;
+	border:1px solid #031542;
+	position:relative;
+
+}
+
+.numberContainer
+{
+	position:relative;
+}
+
+.numberContainer img
+{
+	position:absolute;
+	left:0;
+	top:0;
+}

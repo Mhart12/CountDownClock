@@ -1,0 +1,174 @@
+﻿<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="description" content="">
+		<meta name="author" content="Matt Bell">
+		
+		<title>Count down to 12/31</title>
+		
+		<link href="css/main.css" rel="stylesheet" media="all" />
+		<link rel="shortcut icon" href="favicon.png" />
+	</head>
+	<body>
+		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MDHRND"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-MDHRND');</script>
+		<!-- End Google Tag Manager -->
+
+
+		<div id="countDownContainer">
+			<div id="year" style="position:absolute;left:278px;top:120px;font-size:25px;color:white;font-family:arial;">2018</div>
+			<!-- Days -->
+			<div style="position:absolute;top:200px;" id="days">
+				<div id="digit1" class="numberContainer" style="left:250px;">
+					<img src="images/large-segment-top.png"/>
+					<img src="images/large-segment-top-left.png"/>
+					<img src="images/large-segment-top-right.png"/>
+					<img src="images/large-segment-middle.png"/>
+					<img src="images/large-segment-bottom.png"/>
+					<img src="images/large-segment-bottom-right.png"/>
+					<img src="images/large-segment-bottom-left.png"/>
+				</div>
+
+				<div id="digit2" class="numberContainer" style="left:135px;">
+					<img src="images/large-segment-top.png"/>
+					<img src="images/large-segment-top-left.png"/>
+					<img src="images/large-segment-top-right.png"/>
+					<img src="images/large-segment-middle.png"/>
+					<img src="images/large-segment-bottom.png"/>
+					<img src="images/large-segment-bottom-right.png"/>
+					<img src="images/large-segment-bottom-left.png"/>
+				</div>
+
+				<div id="digit3" class="numberContainer" style="left:20px;">
+					<img src="images/large-segment-top.png"/>
+					<img src="images/large-segment-top-left.png"/>
+					<img src="images/large-segment-top-right.png"/>
+					<img src="images/large-segment-middle.png"/>
+					<img src="images/large-segment-bottom.png"/>
+					<img src="images/large-segment-bottom-right.png"/>
+					<img src="images/large-segment-bottom-left.png"/>
+				</div>
+			</div>
+
+			    <div style="position:absolute;top:408px;left:25px;width:327px;height:50px;">
+				<img id="timeline-marker" style="position:absolute;bottom:10px;" src="images/timeline-marker.png" />	
+				<div style="position:absolute;background:#010237;bottom:0px;top:0px;left:327px;width:10px"></div>
+				<div style="position:absolute;background:#010237;bottom:0px;top:0px;left:-10px;width:10px"></div>
+				<img style="position:absolute;bottom:0px;left:-2px;" src="images/timeline.png" />
+
+			</div>
+
+            <div style="position:absolute;top:530px;">
+                <!-- Hours -->
+                <div style="position:absolute;left:79px" id="hours">
+                    <div id="hour2" class="numberContainer" style="left:10px;">
+                        <img src="images/small-segment-top.png" />
+                        <img src="images/small-segment-top-left.png" />
+                        <img src="images/small-segment-top-right.png" />
+                        <img src="images/small-segment-middle.png" />
+                        <img src="images/small-segment-bottom.png" />
+                        <img src="images/small-segment-bottom-right.png" />
+                        <img src="images/small-segment-bottom-left.png" />
+                    </div>
+                    <div id="hour3" class="numberContainer" style="left:50px;">
+                        <img src="images/small-segment-top.png" />
+                        <img src="images/small-segment-top-left.png" />
+                        <img src="images/small-segment-top-right.png" />
+                        <img src="images/small-segment-middle.png" />
+                        <img src="images/small-segment-bottom.png" />
+                        <img src="images/small-segment-bottom-right.png" />
+                        <img src="images/small-segment-bottom-left.png" />
+                    </div>
+                    <div id="hour4" class="numberContainer" style="left:90px;">
+                        <img src="images/small-segment-top.png" />
+                        <img src="images/small-segment-top-left.png" />
+                        <img src="images/small-segment-top-right.png" />
+                        <img src="images/small-segment-middle.png" />
+                        <img src="images/small-segment-bottom.png" />
+                        <img src="images/small-segment-bottom-right.png" />
+                        <img src="images/small-segment-bottom-left.png" />
+                    </div>
+                    <div id="hour5" class="numberContainer" style="left:130px;">
+                        <img src="images/small-segment-top.png" />
+                        <img src="images/small-segment-top-left.png" />
+                        <img src="images/small-segment-top-right.png" />
+                        <img src="images/small-segment-middle.png" />
+                        <img src="images/small-segment-bottom.png" />
+                        <img src="images/small-segment-bottom-right.png" />
+                        <img src="images/small-segment-bottom-left.png" />
+                    </div>
+                    <div id="hour6" class="numberContainer" style="left:170px;">
+                        <img src="images/small-segment-top.png" />
+                        <img src="images/small-segment-top-left.png" />
+                        <img src="images/small-segment-top-right.png" />
+                        <img src="images/small-segment-middle.png" />
+                        <img src="images/small-segment-bottom.png" />
+                        <img src="images/small-segment-bottom-right.png" />
+                        <img src="images/small-segment-bottom-left.png" />
+                    </div>
+                </div>
+
+                <!-- Minutes -->
+                <!--<div style="position:absolute;left:152px" id="minutes">
+        <div id="hour2" class="numberContainer" style="left:40px;">
+            <img src="images/small-segment-top.png"/>
+            <img src="images/small-segment-top-left.png"/>
+            <img src="images/small-segment-top-right.png"/>
+            <img src="images/small-segment-middle.png"/>
+            <img src="images/small-segment-bottom.png"/>
+            <img src="images/small-segment-bottom-right.png"/>
+            <img src="images/small-segment-bottom-left.png"/>
+        </div>
+
+        <div id="hour1" class="numberContainer" style="left:0px;">
+            <img src="images/small-segment-top.png"/>
+            <img src="images/small-segment-top-left.png"/>
+            <img src="images/small-segment-top-right.png"/>
+            <img src="images/small-segment-middle.png"/>
+            <img src="images/small-segment-bottom.png"/>
+            <img src="images/small-segment-bottom-right.png"/>
+            <img src="images/small-segment-bottom-left.png"/>
+        </div>
+    </div>-->
+                <!-- Seconds -->
+                <!--<div style="position:absolute;left:255px" id="seconds">
+                <div id="hour2" class="numberContainer" style="left:40px;">
+                    <img src="images/small-segment-top.png" />
+                    <img src="images/small-segment-top-left.png" />
+                    <img src="images/small-segment-top-right.png" />
+                    <img src="images/small-segment-middle.png" />
+                    <img src="images/small-segment-bottom.png" />
+                    <img src="images/small-segment-bottom-right.png" />
+                    <img src="images/small-segment-bottom-left.png" />
+                </div>
+
+                <div id="hour1" class="numberContainer" style="left:0px;">
+                    <img src="images/small-segment-top.png" />
+                    <img src="images/small-segment-top-left.png" />
+                    <img src="images/small-segment-top-right.png" />
+                    <img src="images/small-segment-middle.png" />
+                    <img src="images/small-segment-bottom.png" />
+                    <img src="images/small-segment-bottom-right.png" />
+                    <img src="images/small-segment-bottom-left.png" />
+                </div>
+            </div>-->
+        </div>
+
+
+                </div>
+
+
+            <script src="app.js"></script>
+        </body>
+    </html>
+
+
+
